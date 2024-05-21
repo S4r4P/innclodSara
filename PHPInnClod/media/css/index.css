@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "raleway";
+    src: url("../font/Raleway-Italic-VariableFont_wght.ttf");
+}
+@keyframes borderAnimation {
+    0% {
+      outline-color: #ff0953;
+      box-shadow: 0 0 10px #df0143;
+    }
+    50% {
+      outline-color: #282e6e;
+      box-shadow: 0 0 10px #050a4a;
+    }
+    100% {
+      outline-color: #cd0e0e;
+      box-shadow: 0 0 10px #de0909;
+    }
+  }
+  
+@keyframes fontAnimation {
+    0% {
+        color: #ff0953;
+      
+    }
+    50% {
+        color: #282e6e;
+    }
+    100% {
+        color: #cd0e0e;
+    }
+}
+body{
+    background-image: url('../img/pexels-codioful-7130573.jpg');
+    background-size: cover;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+section{
+    background-color: white;
+    border-radius: 40px;
+    padding: 50px;
+    width: 100%;
+    font-family: "raleway";
+    height: 85vh;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px 50px 0px;
+    
+}
+#search{
+   border: none;
+   border-bottom: 2px solid rgb(120, 120, 120);
+   outline: none;
+   padding: 0px 10px 0px 10px;
+}
+#textBot{
+    font-size: 20px;
+    color: black;
+}
+.btn{
+    animation: borderAnimation 2s infinite;
+    font-size: 18px;
+    margin-right: 20px;
+}
+#exampleModalLabel{
+    animation: fontAnimation 2s infinite;
+    margin-left: 20px;
+}
+select{
+    font-size: 17px;
+    color: black;
+    border-bottom: 2px solid rgb(120, 120, 120);
+    border-radius: 15px;
+    padding: 5px;
+}
+#tabla{
+    text-align: center;
+    margin-top: 30px;
+}
+
+th{
+    width: 20%;
+    color: black;
+    flex-wrap: wrap;
+   
+}
+td{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.oculto {
+    display: none;
+}
+
+.icono{
+    width: 25px;
+}
+#modal-body{
+    display: flex;
+    justify-content: space-around;
+}
+
