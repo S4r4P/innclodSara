@@ -53,3 +53,15 @@ Cambia unas líneas en el bloque "Directory". Con esta otra configuración, el e
    AllowOverride All
    Require all granted
 </Directory>
+
+Uso
+Una vez que la aplicación funcione correctamente, podrás:
+
+1. INICIAR SESIÓN:
+   - USUARIO: phpInnclod
+   - CLAVE: 1nncl0d*
+2. Añadir Documentos: Completa el formulario y envía los datos para añadir un nuevo documento a la base de datos.
+    - Ver Documentos: Consulta la lista de documentos almacenados en la base de datos.
+    - Editar Documentos
+    - Eliminar Documentos
+3. CERRAR SESIÓN.
